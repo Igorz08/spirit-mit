@@ -1,0 +1,34 @@
+{
+  "posts": [
+    { "id": "1", "title": "a title", "views": 100 },
+    { "id": "2", "title": "another title", "views": 200 }
+  ],
+  "comments": [
+    {"nome": "Lucas Silva", "text": "Pizza maravilhosa! Massa muito boa.", "nota": 4.5},
+    {"nome": "Kevin Araujo", "text": "Uma das melhores pizzas que já comi!", "nota": 5},
+    {"nome": "Adamastor Figueiredo", "text": "Demorou um pouco, mas gostei, recomendo.", "nota": 4},
+    {"nome": "Luiz Inacio", "text": "Bom demais companheiro.", "nota": 5},
+    {"nome": "Ednaldo Pereira", "text": "Show de bola, adorei.", "nota": 5},
+    {"nome": "Sara Almeida", "text": "A pizza é boa.", "nota": 5},
+    {"nome": "Sarah Almeida", "text": "Top", "nota": 5},
+    {"nome": "Saraah Almeida", "text": "Top demais", "nota": 4.5},
+    {"nome": "Saarah Almeida", "text": "mto loko", "nota": 5},
+    {"nome": "Saaraah Almeida", "text": "to ficando sem ideia oq colocar de comentario", "nota": 5}
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {"nome": "João Silva", "email": "joao@email.com", "telefone": "11999990001" },
+    {"nome": "Maria Santos", "email": "maria@email.com", "telefone": "11999990002" },
+    {"nome": "Pedro Oliveira", "email": "pedro@email.com", "telefone": "11999990003" },
+    {"nome": "Ana Souza", "email": "ana@email.com", "telefone": "11999990004" },
+    {"nome": "Carlos Pereira", "email": "carlos@email.com", "telefone": "11999990005" },
+    {"nome": "Juliana Costa", "email": "juliana@email.com", "telefone": "11999990006" },
+    {"nome": "Lucas Almeida", "email": "lucas@email.com", "telefone": "11999990007" },
+    {"nome": "Fernanda Lima", "email": "fernanda@email.com", "telefone": "11999990008" },
+    {"nome": "Rafael Martins", "email": "rafael@email.com", "telefone": "11999990009" },
+    {"nome": "Camila Rodrigues", "email": "camila@email.com", "telefone": "11999990010" },
+    {"nome": "Doris", "email": "doris@email.com", "telefone": "11999990011" }
+  ]
+}
