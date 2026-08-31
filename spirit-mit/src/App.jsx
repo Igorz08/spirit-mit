@@ -1,6 +1,6 @@
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
-import Router from "./Router";
+import Router from "../Router";
 import "./Global.css";
 
 function App() {
@@ -13,7 +13,11 @@ function App() {
       textHeader="Bem vindo ao site"
       />
 
+      <br />
+
       <Router/>
+
+      <br />
 
       <Footer
       textFooter="Rodapé"
