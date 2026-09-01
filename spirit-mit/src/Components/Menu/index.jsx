@@ -27,10 +27,6 @@ const Menu = () => {
                         </li>
 
                         <li>
-                            <Link to="/sinais">Sinais</Link>
-                        </li>
-
-                        <li>
                             <Link to="/servicos">Serviços</Link>
                         </li>
 

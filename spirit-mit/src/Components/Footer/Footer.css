@@ -11,7 +11,7 @@ footer {
 
     padding: 0 calc((100% - 1030px) / 2);
 
-    gap: 20px;
+
 
     font-weight: bolder;
     padding: 30px;
@@ -19,6 +19,18 @@ footer {
     border-top: 4px solid #d32f3f;
 }
 
+.footerContainer {
+    max-width: 1030px;
+    height: 100%;
+
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+        gap: 50px;
+}
 
 /* Links do telefone e WhatsApp */
 .linkFooter {

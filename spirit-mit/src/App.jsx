@@ -9,18 +9,12 @@ function App() {
     <div className="container">
 
       <Router/>
-
-      <br />
-
-      <Header
+      {/* <Header
       titleHeader="Olá!"
       textHeader="Bem vindo ao site"
-      />
-      <br />
+      /> */}
 
-      <Footer
-      textFooter="Rodapé"
-      />
+      <Footer/>
 
     </div>
   
