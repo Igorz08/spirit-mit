@@ -28,8 +28,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-        gap: 50px;
+    flex-direction: row;
+    gap: 40px;
 }
 
 /* Links do telefone e WhatsApp */
