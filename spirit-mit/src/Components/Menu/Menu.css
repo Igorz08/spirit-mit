@@ -1,0 +1,192 @@
+/* Cabeçalho */
+.menu {
+    width: 100%;
+    height: 100px;
+
+    background-color: #15110f;
+
+    border-bottom: 4px solid #d32f3f;
+
+    box-sizing: border-box;
+}
+
+
+/* Conteúdo interno do menu */
+.menuContainer {
+    max-width: 1030px;
+    height: 100%;
+
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* Logo inteiro */
+.logo {
+    display: flex;
+    align-items: center;
+
+    text-decoration: none;
+
+    gap: 10px;
+
+    margin-left: 20px;
+}
+
+
+/* Símbolo triangular */
+.logoSimbolo {
+    width: 0;
+    height: 0;
+
+    border-left: 19px solid transparent;
+    border-right: 19px solid transparent;
+    border-bottom: 38px solid #d32f3f;
+}
+
+
+/* Área do texto */
+.logoTexto {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Nome da oficina */
+.logoTexto h1 {
+    margin: 0;
+
+    color: #ffffff;
+
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    font-weight: 390;
+}
+
+
+/* Subtítulo */
+.logoTexto h2 {
+    margin: 2px 0 0;
+
+    color: #eeeeee;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+/* Navegação */
+nav ul {
+    display: flex;
+
+    align-items: center;
+
+    gap: 30px;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+
+/* Links */
+nav ul li a {
+    color: #ffffff;
+
+    text-decoration: none;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 15px;
+
+    transition: color 0.2s ease;
+}
+
+
+/* Efeito ao passar o mouse */
+nav ul li a:hover {
+    color: #f4511e;
+}
+
+
+/* Botão Agendar */
+.agendarLink {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 86px;
+    height: 40px;
+
+    background-color: #d32f3f;
+
+    color: #ffffff;
+
+    text-decoration: none;
+
+    border-radius: 2px;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 12px;
+    font-weight: bold;
+
+    transition: background-color 0.2s ease;
+
+    margin-right: 20px;
+}
+
+
+/* Hover do botão */
+.agendarLink:hover {
+    background-color: #f4511e;
+}
+
+
+/* Responsividade */
+@media (max-width: 900px) {
+
+    .menuContainer {
+        padding: 0 25px;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+}
+
+
+@media (max-width: 750px) {
+
+    .menu {
+        height: auto;
+    }
+
+    .menuContainer {
+        flex-direction: column;
+
+        gap: 20px;
+
+        padding: 25px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .agendarLink {
+        margin-bottom: 5px;
+    }
+
+}

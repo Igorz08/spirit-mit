@@ -8,15 +8,14 @@ function App() {
 
     <div className="container">
 
+      <Router/>
+
+      <br />
+
       <Header
       titleHeader="Olá!"
       textHeader="Bem vindo ao site"
       />
-
-      <br />
-
-      <Router/>
-
       <br />
 
       <Footer
