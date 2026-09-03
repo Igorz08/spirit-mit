@@ -6,7 +6,7 @@ import "./Global.css";
 function App() {
   return (
 
-    <div className="container">
+    <div>
 
       <Router/>
       {/* <Header
