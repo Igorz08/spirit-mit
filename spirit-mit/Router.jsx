@@ -1,7 +1,8 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Menu from './src/Components/Menu'
 import Sobre from './src/Pages/Sobre'
 import Home from './src/Pages/Home'
-import Menu from './src/Components/Menu'
+import Notfound from './src/Pages/Notfound'
 
 export default function Router() {
     return (
@@ -14,6 +15,7 @@ export default function Router() {
 
                 <Route path="/" element={<Home />} />
                 <Route path="/sobre" element={<Sobre />} />
+                <Route path="*" element={<Notfound />} />
 
             </Routes>
 

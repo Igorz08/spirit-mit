@@ -103,17 +103,19 @@ nav ul li a {
 
     text-decoration: none;
 
-    font-family: Arial, sans-serif;
+    /* font-family: 'comorant garamond'; */
 
-    font-size: 18px;
+    font-size: 20px;
 
     transition: color 0.2s ease;
+
+
 }
 
 
 /* Efeito ao passar o mouse */
 nav ul li a:hover {
-    color: #f4511e;
+    color: #d32f3f;
 }
 
 
@@ -133,7 +135,7 @@ nav ul li a:hover {
 
     text-decoration: none;
 
-    border-radius: 2px;
+    border-radius: 3px;
 
     font-family: Arial, sans-serif;
 
@@ -148,7 +150,7 @@ nav ul li a:hover {
 
 /* Hover do botão */
 .agendarLink:hover {
-    background-color: #f4511e;
+    background-color: #eb5656;
 }
 
 

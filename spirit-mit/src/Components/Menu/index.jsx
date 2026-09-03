@@ -22,9 +22,9 @@ const Menu = () => {
                             <Link to="/">Início</Link>
                         </li>
 
-                        <li>
+                        {/* <li>
                             <Link to="/sobre">Sobre</Link>
-                        </li>
+                        </li> */}
 
                         <li>
                             <Link to="/servicos">Serviços</Link>

@@ -23,7 +23,7 @@
 
     box-sizing: border-box;
 
-    padding: 70px max(30px, calc((100% - 1030px) / 2));
+    padding: 200px max(30px, calc((100% - 1030px) / 2));
 
     display: flex;
     flex-direction: column;
@@ -62,7 +62,7 @@
 
     font-family: Arial, sans-serif;
 
-    font-size: 8px;
+    font-size: 12px;
 
     margin-bottom: 12px;
 }
@@ -75,7 +75,7 @@
 
     margin: 0 0 15px;
 
-    font-size: 58px;
+    font-size: 80px;
 
     line-height: 0.95;
 
@@ -103,7 +103,7 @@
 
     color: #e8e3df;
 
-    font-size: 12px;
+    font-size: 20px;
 
     line-height: 1.5;
 }
@@ -143,7 +143,7 @@
 
     font-family: "Arial Narrow", "Roboto Condensed", Arial, sans-serif;
 
-    font-size: 27px;
+    font-size: 37px;
 
     line-height: 1;
 
@@ -164,7 +164,7 @@
 
     color: #d32f3f;
 
-    font-size: 10px;
+    font-size: 20px;
 }
 
 
@@ -179,7 +179,7 @@
 
     color: #625b57;
 
-    font-size: 11px;
+    font-size: 17px;
 
     line-height: 1.65;
 }
@@ -211,7 +211,7 @@
 
     font-family: "Arial Narrow", "Roboto Condensed", Arial, sans-serif;
 
-    font-size: 27px;
+    font-size: 37px;
 
     line-height: 1;
 
@@ -228,7 +228,7 @@
 .aba2Home h3 strong {
     color: #d32f3f;
 
-    font-size: 10px;
+    font-size: 20px;
 
     margin-right: 10px;
 }
@@ -243,7 +243,7 @@
 
     color: #aaa29c;
 
-    font-size: 11px;
+    font-size: 17px;
 
     line-height: 1.5;
 }
@@ -294,7 +294,7 @@
 
     font-family: "Arial Narrow", "Roboto Condensed", Arial, sans-serif;
 
-    font-size: 13px;
+    font-size: 22px;
 
     font-weight: 100;
 
@@ -318,7 +318,7 @@
 
     color: #aaa29c;
 
-    font-size: 10px;
+    font-size: 16px;
 
     line-height: 1.5;
 }
@@ -353,7 +353,7 @@
 
     font-family: "Arial Narrow", "Roboto Condensed", Arial, sans-serif;
 
-    font-size: 27px;
+    font-size: 37px;
 
     font-weight: 300;
 
@@ -369,7 +369,7 @@
 .aba3Home h3 strong {
     color: #d32f3f;
 
-    font-size: 10px;
+    font-size: 20px;
 
     margin-right: 10px;
 }
