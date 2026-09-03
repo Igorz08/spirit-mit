@@ -1,11 +1,15 @@
 import React from 'react'
+import './Home.css'
 
 export default function Home() {
   return (
     <div className='container'>
 
         <div className='bannerHome'>
-          <h2>Sua Mitsubishi nas mãos de quem entende só dela.</h2>
+          <h2>
+            Sua Mitsubishi nas mãos de quem
+            <span> entende só dela</span>.
+          </h2>
 
           <p>Câmbio, embreagem, suspensão e diagnóstico para L200, 
             Pajero, Pajero Sport, ASX e toda a linha Mitsubishi. 

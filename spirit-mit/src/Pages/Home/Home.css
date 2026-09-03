@@ -1,0 +1,531 @@
+/* ========================================
+   HOME
+======================================== */
+
+.container {
+    width: 100%;
+    margin: 0;
+
+    background-color: #f1ebe2;
+
+    color: #171311;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ========================================
+   BANNER PRINCIPAL
+======================================== */
+
+.bannerHome {
+    min-height: 430px;
+
+    box-sizing: border-box;
+
+    padding: 70px max(30px, calc((100% - 1030px) / 2));
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(70, 66, 62, 0.45),
+            rgba(20, 17, 15, 0.98)
+        );
+
+    color: white;
+
+    position: relative;
+}
+
+.bannerHome h2 span {
+    color: #d32f3f;
+}
+
+/* .bannerHome h2 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+} */
+
+
+
+/* Pequena linha vermelha acima do título */
+
+.bannerHome::before {
+    content: "SPIRIT MIT MOTORS";
+
+    display: block;
+
+    color: #d32f3f;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 8px;
+
+    margin-bottom: 12px;
+}
+
+
+/* Título principal */
+
+.bannerHome h2 {
+    max-width: 560px;
+
+    margin: 0 0 15px;
+
+    font-size: 58px;
+
+    line-height: 0.95;
+
+    font-weight: 300;
+
+    text-transform: uppercase;
+
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+
+/* Destaque vermelho */
+
+.bannerHome h2::first-line {
+    color: white;
+}
+
+
+/* Texto */
+
+.bannerHome p {
+    max-width: 590px;
+
+    margin: 0 0 25px;
+
+    color: #e8e3df;
+
+    font-size: 12px;
+
+    line-height: 1.5;
+}
+
+
+/* ========================================
+   SEÇÃO 01
+======================================== */
+
+.aba1Home {
+    min-height: 400px;
+
+    max-width: 1030px;
+
+    margin: 0 auto;
+
+    padding: 65px 30px;
+
+    box-sizing: border-box;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    column-gap: 70px;
+
+    align-items: center;
+}
+
+
+/* Título */
+
+.aba1Home h3 {
+    grid-column: 2;
+
+    margin: 0 0 15px;
+
+    font-family: "Arial Narrow", "Roboto Condensed", Arial, sans-serif;
+
+    font-size: 27px;
+
+    line-height: 1;
+
+    font-weight: 300;
+
+    text-transform: uppercase;
+
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+
+/* Número */
+
+.aba1Home h3 strong {
+    display: block;
+
+    margin-bottom: 10px;
+
+    color: #d32f3f;
+
+    font-size: 10px;
+}
+
+
+/* Texto */
+
+.aba1Home > p {
+    grid-column: 2;
+
+    margin: 0;
+
+    max-width: 500px;
+
+    color: #625b57;
+
+    font-size: 11px;
+
+    line-height: 1.65;
+}
+
+
+/* ========================================
+   SEÇÃO 02
+======================================== */
+
+.aba2Home {
+    width: 100%;
+
+    box-sizing: border-box;
+
+    padding: 60px max(30px, calc((100% - 1030px) / 2));
+
+    background-color: #171311;
+
+    color: white;
+
+    
+}
+
+
+/* Título */
+
+.aba2Home h3 {
+    margin: 0 0 10px;
+
+    font-family: "Arial Narrow", "Roboto Condensed", Arial, sans-serif;
+
+    font-size: 27px;
+
+    line-height: 1;
+
+    font-weight: 300;
+
+    text-transform: uppercase;
+
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+
+/* Número */
+
+.aba2Home h3 strong {
+    color: #d32f3f;
+
+    font-size: 10px;
+
+    margin-right: 10px;
+}
+
+
+/* Descrição */
+
+.aba2Home > p {
+    max-width: 650px;
+
+    margin: 0 0 35px;
+
+    color: #aaa29c;
+
+    font-size: 11px;
+
+    line-height: 1.5;
+}
+
+
+/* ========================================
+   CARDS DOS SERVIÇOS
+======================================== */
+
+.miniAbaHome {
+    display: inline-block;
+
+    vertical-align: top;
+
+    width: calc(50% - 15px);
+
+    min-height: 110px;
+
+    box-sizing: border-box;
+
+    padding: 18px 20px;
+
+    margin-bottom: 20px;
+
+    border-top: 1px solid #514b47;
+
+    border-bottom: 1px solid #514b47;
+
+    background-color: transparent;
+
+    transition: background-color 0.2s ease;
+}
+
+
+/* Espaçamento */
+
+.miniAbaHome:nth-of-type(2n) {
+    margin-left: 25px;
+}
+
+
+/* Título */
+
+.miniAbaHome h4 {
+    margin: 0 0 8px;
+
+    color: #ffffff;
+
+    font-family: "Arial Narrow", "Roboto Condensed", Arial, sans-serif;
+
+    font-size: 13px;
+
+    font-weight: 100;
+
+    text-transform: uppercase;
+
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+
+/* Símbolo */
+
+.miniAbaHome h4::first-letter {
+    color: #d32f3f;
+}
+
+
+/* Texto */
+
+.miniAbaHome p {
+    margin: 0;
+
+    color: #aaa29c;
+
+    font-size: 10px;
+
+    line-height: 1.5;
+}
+
+
+/* Hover */
+
+.miniAbaHome:hover {
+    background-color: #211c19;
+}
+
+
+/* ========================================
+   SEÇÃO 03
+======================================== */
+
+.aba3Home {
+    max-width: 1030px;
+
+    margin: 0 auto;
+
+    padding: 65px 30px;
+
+    box-sizing: border-box;
+}
+
+
+/* Título */
+
+.aba3Home h3 {
+    margin: 0 0 25px;
+
+    font-family: "Arial Narrow", "Roboto Condensed", Arial, sans-serif;
+
+    font-size: 27px;
+
+    font-weight: 300;
+
+    text-transform: uppercase;
+
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+
+}
+
+
+/* Número */
+
+.aba3Home h3 strong {
+    color: #d32f3f;
+
+    font-size: 10px;
+
+    margin-right: 10px;
+}
+
+
+/* ========================================
+   GALERIA
+======================================== */
+
+.aba3Home img {
+    width: calc(33.333% - 12px);
+
+    height: 210px;
+
+    object-fit: cover;
+
+    margin-right: 15px;
+
+    background-color: #d5cec5;
+
+    border: none;
+
+    transition: transform 0.2s ease;
+}
+
+
+.aba3Home img:last-child {
+    margin-right: 0;
+}
+
+
+.aba3Home img:hover {
+    transform: scale(1.02);
+}
+
+
+/* ========================================
+   RESPONSIVIDADE
+======================================== */
+
+@media (max-width: 1100px) {
+
+    .bannerHome {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .aba1Home,
+    .aba3Home {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .aba2Home {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+
+/* ========================================
+   TABLET
+======================================== */
+
+@media (max-width: 750px) {
+
+    .bannerHome {
+        min-height: 400px;
+
+        padding: 60px 30px;
+    }
+
+
+    .bannerHome h2 {
+        font-size: 40px;
+    }
+
+
+    .aba1Home {
+        display: block;
+
+        padding: 55px 30px;
+    }
+
+
+    .aba1Home h3 {
+        margin-bottom: 15px;
+    }
+
+
+    .aba1Home > p {
+        max-width: 100%;
+    }
+
+
+    .aba2Home {
+        padding: 55px 30px;
+    }
+
+
+    .miniAbaHome {
+        display: block;
+
+        width: 100%;
+
+        margin-left: 0 !important;
+    }
+
+
+    .aba3Home {
+        padding: 55px 30px;
+    }
+
+
+    .aba3Home img {
+        width: 100%;
+
+        height: 220px;
+
+        margin: 0 0 15px;
+    }
+}
+
+
+/* ========================================
+   CELULAR
+======================================== */
+
+@media (max-width: 500px) {
+
+    .bannerHome {
+        padding: 50px 25px;
+    }
+
+
+    .bannerHome h2 {
+        font-size: 34px;
+    }
+
+
+    .bannerHome p {
+        font-size: 11px;
+    }
+
+
+    .aba1Home,
+    .aba2Home,
+    .aba3Home {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+
+    .aba1Home h3,
+    .aba2Home h3,
+    .aba3Home h3 {
+        font-size: 24px;
+    }
+}
