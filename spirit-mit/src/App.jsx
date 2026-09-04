@@ -1,4 +1,4 @@
-import Header from "./Components/Header";
+// import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Router from "../Router";
 import "./Global.css";

@@ -40,8 +40,8 @@ const Menu = () => {
                     </ul>
                 </nav>
 
-                <Link to="/agendar" className="agendarLink">
-                    AGENDAR
+                <Link to="/contato" className="agendarLink">
+                    FALE CONOSCO
                 </Link>
 
             </div>

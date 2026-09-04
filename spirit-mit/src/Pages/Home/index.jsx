@@ -1,5 +1,8 @@
 import React from 'react'
 import './Home.css'
+import home1 from "../../assets/home1.png";
+import home2 from "../../assets/home2.png";
+import home3 from "../../assets/home3.png";
 
 export default function Home() {
   return (
@@ -60,9 +63,9 @@ export default function Home() {
           <div className="aba3Home">
             <h3><strong>03</strong> Dentro da oficina</h3>
 
-            <img src="#" alt="foto1" />
-            <img src="#" alt="foto2" />
-            <img src="#" alt="foto3" />
+            <img src={home1} alt="foto1" />
+            <img src={home2} alt="foto2" />
+            <img src={home3} alt="foto3" />
           </div>
         
     </div>

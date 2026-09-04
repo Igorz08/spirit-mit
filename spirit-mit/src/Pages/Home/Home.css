@@ -114,7 +114,7 @@
 ======================================== */
 
 .aba1Home {
-    min-height: 400px;
+    min-height: 350px;
 
     max-width: 1030px;
 
@@ -137,7 +137,7 @@
 /* Título */
 
 .aba1Home h3 {
-    grid-column: 2;
+    grid-column: 1;
 
     margin: 0 0 15px;
 
@@ -237,7 +237,7 @@
 /* Descrição */
 
 .aba2Home > p {
-    max-width: 650px;
+    /* max-width: 650px; */
 
     margin: 0 0 35px;
 
@@ -351,8 +351,6 @@
 .aba3Home h3 {
     margin: 0 0 25px;
 
-    font-family: "Arial Narrow", "Roboto Condensed", Arial, sans-serif;
-
     font-size: 37px;
 
     font-weight: 300;
@@ -392,6 +390,8 @@
 
     border: none;
 
+    border-radius: 5px;
+
     transition: transform 0.2s ease;
 }
 
@@ -402,7 +402,7 @@
 
 
 .aba3Home img:hover {
-    transform: scale(1.02);
+    transform: scale(1.08);
 }
 
 

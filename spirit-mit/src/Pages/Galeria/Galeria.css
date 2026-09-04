@@ -1,0 +1,63 @@
+.galBackground {
+    min-height: 430px;
+
+    box-sizing: border-box;
+
+    padding: 30px max(30px, calc((100% - 1030px) / 2));
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(70, 66, 62, 0.45),
+            rgba(20, 17, 15, 0.98)
+        );
+
+    color: white;
+
+    position: relative;
+}
+
+.galBackground h3 {
+    margin: 0 0 25px;
+
+    font-size: 37px;
+
+    font-weight: 300;
+
+    text-transform: uppercase;
+
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.galBackground img {
+    width: calc(33.333% - 12px);
+
+    height: 290px;
+
+    object-fit: cover;
+
+    margin: 6px;
+    margin-bottom: 30px;
+
+    background-color: #d5cec5;
+
+    border: none;
+
+    border-radius: 5px;
+
+    transition: transform 0.2s ease;
+}
+
+
+/* .galBackground img:last-child {
+    margin-right: 0;
+} */
+
+
+.galBackground img:hover {
+    transform: scale(1.08);
+}

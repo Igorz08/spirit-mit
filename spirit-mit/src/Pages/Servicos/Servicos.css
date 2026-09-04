@@ -1,0 +1,199 @@
+/* ========================================
+   LISTA DE SERVIÇOS
+======================================== */
+
+.listaServicos {
+    width: 100%;
+
+    padding: 70px max(30px, calc((100% - 1030px) / 2));
+
+    box-sizing: border-box;
+
+    background-color: #171311;
+
+    background:
+        linear-gradient(
+            to bottom,
+            #1f1917,
+            #171311
+        );
+
+    color: white;
+}
+
+
+/* Título */
+
+.tituloLista {
+    margin-bottom: 15px;
+}
+
+
+/* Título */
+
+.tituloLista h2 {
+    display: inline;
+
+    margin: 0;
+
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+
+    font-size: 37px;
+
+    font-weight: 300;
+
+    letter-spacing: 0.3px;
+}
+
+
+/* Descrição da seção */
+
+.descricaoServicos {
+    /* max-width: 650px; */
+
+    margin: 0 0 40px;
+
+    color: #aaa29c;
+
+    font-size: 19px;
+
+    line-height: 1.6;
+}
+
+
+/* ========================================
+   GRID
+======================================== */
+
+.gridServicos {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    /* border-top: 1px solid #514b47;
+
+    border-left: 1px solid #514b47; */
+}
+
+
+/* ========================================
+   CARD
+======================================== */
+
+.cardServico {
+    min-height: 150px;
+
+    padding: 25px;
+
+    margin: 10px;
+
+    box-sizing: border-box;
+
+    display: flex;
+
+    gap: 20px;
+
+    border-top: 2px solid #514b47;
+
+    border-bottom: 2px solid #514b47;
+
+    transition: background-color 0.2s ease;
+}
+
+
+/* Número */
+
+.numeroServico {
+    color: #d32f3f;
+
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+
+    font-size: 19px;
+
+    min-width: 20px;
+
+    padding-top: 2px;
+}
+
+
+/* Título */
+
+.cardServico h3 {
+
+    margin: 0 0 10px;
+
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+
+    font-size: 25px;
+
+    font-weight: 200;
+
+    letter-spacing: 0.3px;
+}
+
+
+/* Descrição */
+
+.cardServico p {
+    max-width: 390px;
+
+    margin: 0;
+
+    color: #aaa29c;
+
+    font-size: 18px;
+
+    line-height: 1.6;
+}
+
+
+/* Efeito hover */
+
+.cardServico:hover {
+    background-color: #25201d;
+    cursor: pointer;
+}
+
+
+/* ========================================
+   TABLET / CELULAR
+======================================== */
+
+@media (max-width: 750px) {
+
+    .listaServicos {
+        padding: 55px 30px;
+    }
+
+    .gridServicos {
+        grid-template-columns: 1fr;
+    }
+
+    .cardServico {
+        min-height: auto;
+
+        padding: 22px;
+    }
+}
+
+
+@media (max-width: 500px) {
+
+    .listaServicos {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .tituloLista h2 {
+        font-size: 26px;
+    }
+
+    .cardServico h3 {
+        font-size: 14px;
+    }
+
+    .cardServico p {
+        font-size: 10px;
+    }
+}
+

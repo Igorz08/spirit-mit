@@ -1,0 +1,270 @@
+.feedback {
+  width: 100%;
+  padding: 40px max(30px, calc((100% - 1030px) / 2));
+  box-sizing: border-box;
+  background-color: #f1ebe2;
+  color: #171311;
+}
+
+/* TÍTULO */
+.feedbackTitulo {
+  max-width: 600px;
+  margin-bottom: 45px;
+}
+
+.feedbackTitulo span {
+  color: #d32f3f;
+  font-size: 9px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.feedbackTitulo h2 {
+  margin: 5px 0 5px;
+  line-height: 1.1;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 37px;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+}
+
+.feedbackTitulo h2 strong {
+  color: #d32f3f;
+}
+
+.feedbackTitulo p {
+  max-width: 500px;
+  margin: 0;
+  color: #625b57;
+  font-size: 19px;
+  line-height: 1.6;
+}
+
+/* CONTAINER DOS COMENTÁRIOS (GRID DE 2 COLUNAS) */
+.feedbackContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* CARTÃO DE CADA FEEDBACK */
+.contentBack {
+  padding: 24px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.contentBack:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* SEÇÃO SUPERIOR: FOTO, NOME E NOTA */
+.clienteFeedback {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #ddd6d0; /* Linha divisória cinza */
+}
+
+.clienteFeedback > img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.clienteFeedback h3 {
+  margin: 0 0 6px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 22px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+/* ESTRELAS E NOTA */
+.avaliacao {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.avaliacao img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.avaliacao strong {
+  color: #bbb128;
+  font-size: 19px;
+}
+
+/* COMENTÁRIO (ABAIXO DA LINHA) */
+.comentarioFeedback {
+  margin: 16px 0 0;
+  color: #625b57;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 750px) {
+  .feedback {
+    padding: 60px 30px;
+  }
+
+  .feedbackTitulo h2 {
+    font-size: 34px;
+  }
+
+  .feedbackContainer {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .feedback {
+    padding: 50px 20px;
+  }
+
+  .feedbackTitulo h2 {
+    font-size: 30px;
+  }
+
+  .contentBack {
+    padding: 20px;
+  }
+
+  .clienteFeedback > img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* BOTÃO DELETAR */
+.btnDeletar {
+  align-self: flex-end; /* Alinha o botão no canto inferior direito */
+  margin-top: 15px;
+  padding: 6px 14px;
+  background-color: transparent;
+  color: #d32f3f; /* Vermelho padrão da marca do projeto */
+  border: 1px solid #d32f3f;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.btnDeletar:hover {
+  background-color: #d32f3f;
+  color: #ffffff;
+}
+
+/* FORMULÁRIO DE COMENTÁRIOS */
+
+.feedbackFormContainer {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.feedbackFormContainer h3 {
+  margin: 0 0 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  color: #171311;
+  letter-spacing: 0.5px;
+}
+
+.feedbackForm {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.formGroupInline {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.formGroup label {
+  font-size: 19px;
+  font-weight: bold;
+  color: #625b57;
+}
+
+.formGroup input,
+.formGroup select,
+.formGroup textarea {
+  padding: 12px;
+  border: 1px solid #ddd6d0;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+  font-family: inherit;
+  transition: border-color 0.2s ease;
+  resize: none;
+}
+
+.formGroup input:focus,
+.formGroup select:focus,
+.formGroup textarea:focus {
+  border-color: #d32f3f;
+}
+
+.btnEnviar {
+  align-self: flex-start;
+  padding: 12px 24px;
+  background-color: #d32f3f;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 19px;
+  /* font-weight: bold; */
+  letter-spacing: 0.4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btnEnviar:hover {
+  background-color: #b52533;
+}
+
+.btnEnviar:active {
+  transform: scale(0.98);
+}
+
+/* RESPONSIVIDADE DO FORMULÁRIO */
+@media (max-width: 600px) {
+  .formGroupInline {
+    grid-template-columns: 1fr;
+  }
+
+  .btnEnviar {
+    width: 100%;
+  }
+}
+
+.separador {
+    background-color: #625b57;
+    margin: 60px;
+}

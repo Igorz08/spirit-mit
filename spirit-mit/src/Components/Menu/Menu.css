@@ -119,14 +119,14 @@ nav ul li a:hover {
 }
 
 
-/* Botão Agendar */
+/* Botão Vermelho */
 .agendarLink {
     display: flex;
 
     align-items: center;
     justify-content: center;
 
-    width: 86px;
+    width: 130px;
     height: 40px;
 
     background-color: #d32f3f;
