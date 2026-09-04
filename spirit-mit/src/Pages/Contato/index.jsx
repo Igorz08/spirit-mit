@@ -68,8 +68,8 @@ const Contato = () => {
           <div className="infoBloco">
             <h3>HORÁRIO DE FUNCIONAMENTO</h3>
             <p><strong>Segunda a Sexta:</strong> 08:00 às 20:00</p>
-            <p><strong>Sábados:</strong>08:00 às 18:00</p>
-            <p><strong>Domingos e Feriados:</strong>Fechado</p>
+            <p><strong>Sábados:</strong> 08:00 às 18:00</p>
+            <p><strong>Domingos e Feriados:</strong> Fechado</p>
           </div>
 
           {/* REDES SOCIAIS */}

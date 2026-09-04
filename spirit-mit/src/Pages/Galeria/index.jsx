@@ -17,6 +17,7 @@ export default function Home() {
 
           <div>
                 <h3>Galeria de fotos</h3>
+                <p>Veja aqui alguns do registros reais do nosso trabalho.</p>
 
                 <img src={g1} alt="foto da oficina" />
                 <img src={g2} alt="foto da oficina" />

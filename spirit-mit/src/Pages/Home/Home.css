@@ -194,7 +194,7 @@
 
     box-sizing: border-box;
 
-    padding: 60px max(30px, calc((100% - 1030px) / 2));
+    padding: 80px max(30px, calc((100% - 1030px) / 2));
 
     background-color: #171311;
 

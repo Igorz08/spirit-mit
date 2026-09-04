@@ -3,7 +3,7 @@
 
     box-sizing: border-box;
 
-    padding: 30px max(30px, calc((100% - 1030px) / 2));
+    padding: 50px max(30px, calc((100% - 1030px) / 2));
 
     display: flex;
     flex-direction: column;
@@ -12,17 +12,28 @@
     background:
         linear-gradient(
             to bottom,
-            rgba(70, 66, 62, 0.45),
-            rgba(20, 17, 15, 0.98)
+          #1f1917,
+            #463b35
         );
 
-    color: white;
+    color: rgb(255, 255, 255);
 
     position: relative;
 }
 
+.galBackground p {
+
+    margin: 0 0 45px;
+
+color: #aaa29c;
+
+    font-size: 20px;
+
+    line-height: 1.5;
+}
+
 .galBackground h3 {
-    margin: 0 0 25px;
+    margin: 0 0 15px;
 
     font-size: 37px;
 
